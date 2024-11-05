@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import planAnim from "../assets/gif/Animation - 1727986597888 (1).gif"
 import loadingGIF from "../assets/gif/loading.gif"
 import done from "../assets/gif/pngwing.com.png"
@@ -51,12 +51,12 @@ export default function SecondPage({setfirst}) {
             
             {loading === true ? <div className="flex  md:h-[80%] h-[90%] md:w-[80%] w-full justify-center items-center">
                 <div className="absolute h-72 border-2 bg-white shadow-lg w-72 rounded-xl z-40  ">
-                    <div className="h-[50%] flex justify-center items-center"><img className="" src={planAnim} /> </div>
+                    <div className="h-[50%] flex justify-center items-center"><img className="" alt='PlanGIF' src={planAnim} /> </div>
                     <div className="h-[50%] flex flex-col items-center  gap-4"> 
                         <div className="w-[72%] text-start flex items-center gap-2 "> 
-                            <img className="h-5 " src={cardLoading1 === true ? loadingGIF : done} /> Searching 400+ flights</div> 
-                        <div className="w-[72%] text-start flex items-center gap-2 "><img className="h-5" src={cardLoading2 === true ? loadingGIF : done} />Attaching company rules</div> 
-                        <div className="w-[72%] text-start flex items-center gap-2 "><img className="h-5 " src={cardLoading3 === true ? loadingGIF : done} />Serving best result</div> 
+                            <img className="h-5 " alt='loading' src={cardLoading1 === true ? loadingGIF : done} /> Searching 400+ flights</div> 
+                        <div className="w-[72%] text-start flex items-center gap-2 "><img className="h-5" alt='loading' src={cardLoading2 === true ? loadingGIF : done} />Attaching company rules</div> 
+                        <div className="w-[72%] text-start flex items-center gap-2 "><img className="h-5 " alt='loading' src={cardLoading3 === true ? loadingGIF : done} />Serving best result</div> 
                     </div>
                 </div>
                 <div className="h-full w-full flex flex-col justify-between items-center gap-2 ">
@@ -66,7 +66,7 @@ export default function SecondPage({setfirst}) {
                     <div className=" flex w-[88%] p-2 h-full gap-4">
                         <div className=" flex flex-col  text-start h-full w-[90%] rounded-lg bg-gray-200">
                             <div className="text-gray-400 text-sm   "></div>
-                            <h1 className="font-bold text-lg mt-2 "></h1>
+                            {/* <h1 className="font-bold text-lg mt-2 "></h1> */}
                             <hr className='w-[50%] mt-1'/>
                             <p className= "  text-gray-500 text-sm mt-4 w-full "> </p>
                         </div>
@@ -82,7 +82,7 @@ export default function SecondPage({setfirst}) {
                     <div className=" flex w-[88%] p-2 h-full gap-4">
                         <div className=" flex flex-col  text-start h-full w-[90%] rounded-lg bg-gray-200">
                             <div className="text-gray-400 text-sm   "></div>
-                            <h1 className="font-bold text-lg mt-2 "></h1>
+                            {/* <h1 className="font-bold text-lg mt-2 "></h1> */}
                             <hr className='w-[50%] mt-1'/>
                             <p className= "  text-gray-500 text-sm mt-4 w-full "> </p>
                         </div>
@@ -98,7 +98,7 @@ export default function SecondPage({setfirst}) {
                     <div className=" flex w-[88%] p-2 h-full gap-4">
                         <div className=" flex flex-col  text-start h-full w-[90%] rounded-lg bg-gray-200">
                             <div className="text-gray-400 text-sm   "></div>
-                            <h1 className="font-bold text-lg mt-2 "></h1>
+                            {/* <h1 className="font-bold text-lg mt-2 "></h1> */}
                             <hr className='w-[50%] mt-1'/>
                             <p className= "  text-gray-500 text-sm mt-4 w-full "> </p>
                         </div>
@@ -116,7 +116,7 @@ export default function SecondPage({setfirst}) {
                 <div className="h-full w-full flex flex-col justify-between items-center gap-2 ">
                    <div className="md:h-[10%] w-full flex justify-start items-center ps-2 text-gray-400"><span className="ms-2 text-sm">Showing 356 of 756 results</span></div>
                    <div className="h-[30%] w-full p-2 border rounded-lg shadow-lg flex justify-between">
-                    <div className="p-2 md:w-[12%] w-[32%]  h-full"><img className=" rounded-lg md:w-28 md:h-28 w-24 h-24" src={book1} /></div>
+                    <div className="p-2 md:w-[12%] w-[32%]  h-full"><img className=" rounded-lg md:w-28 md:h-28 w-24 h-24" alt='image' src={book1} /></div>
                     <div className=" flex md:w-[88%] w-[68%] p-2 h-full justify-between flex-col md:flex-row ">
                         <div className=" flex flex-col  text-start">
                             <div className="text-gray-400 text-sm">DOM FLIGHTS</div>
@@ -132,7 +132,7 @@ export default function SecondPage({setfirst}) {
                     </div>
                    </div>
                    <div className="h-[30%] w-full p-2 border rounded-lg shadow-lg flex justify-between">
-                    <div className="p-2 md:w-[12%] w-[32%]  h-full"><img className=" rounded-lg md:w-28 md:h-28 w-24 h-24" src={book2} /></div>
+                    <div className="p-2 md:w-[12%] w-[32%]  h-full"><img className=" rounded-lg md:w-28 md:h-28 w-24 h-24" alt='image' src={book2} /></div>
                     <div className=" flex md:w-[88%] w-[68%] p-2 h-full justify-between flex-col md:flex-row ">
                         <div className=" flex flex-col  text-start">
                             <div className="text-gray-400 text-sm">DOM FLIGHTS</div>
@@ -148,7 +148,7 @@ export default function SecondPage({setfirst}) {
                     </div>
                    </div>
                    <div className="h-[30%] w-full p-2 border rounded-lg shadow-lg flex justify-between">
-                    <div className="p-2 md:w-[12%] w-[32%]  h-full"><img className=" rounded-lg md:w-28 md:h-28 w-24 h-24" src={book3} /></div>
+                    <div className="p-2 md:w-[12%] w-[32%]  h-full"><img className=" rounded-lg md:w-28 md:h-28 w-24 h-24" alt='image' src={book3} /></div>
                     <div className=" flex md:w-[88%] w-[68%] p-2 h-full justify-between flex-col md:flex-row ">
                         <div className=" flex flex-col  text-start">
                             <div className="text-gray-400 text-sm">DOM FLIGHTS</div>
