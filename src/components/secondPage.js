@@ -116,7 +116,7 @@ export default function SecondPage({setfirst}) {
                 <div className="h-full w-full flex flex-col justify-between items-center gap-2 ">
                    <div className="md:h-[10%] w-full flex justify-start items-center ps-2 text-gray-400"><span className="ms-2 text-sm">Showing 356 of 756 results</span></div>
                    <div className="h-[30%] w-full p-2 border rounded-lg shadow-lg flex justify-between">
-                    <div className="p-2 md:w-[12%] w-[32%]  h-full"><img className=" rounded-lg md:w-28 md:h-28 w-24 h-24" alt='image' src={book1} /></div>
+                    <div className="p-2 md:w-[12%] w-[32%]  h-full"><img className=" rounded-lg md:w-28 md:h-28 w-24 h-24" alt='booking' src={book1} /></div>
                     <div className=" flex md:w-[88%] w-[68%] p-2 h-full justify-between flex-col md:flex-row ">
                         <div className=" flex flex-col  text-start">
                             <div className="text-gray-400 text-sm">DOM FLIGHTS</div>
@@ -132,7 +132,7 @@ export default function SecondPage({setfirst}) {
                     </div>
                    </div>
                    <div className="h-[30%] w-full p-2 border rounded-lg shadow-lg flex justify-between">
-                    <div className="p-2 md:w-[12%] w-[32%]  h-full"><img className=" rounded-lg md:w-28 md:h-28 w-24 h-24" alt='image' src={book2} /></div>
+                    <div className="p-2 md:w-[12%] w-[32%]  h-full"><img className=" rounded-lg md:w-28 md:h-28 w-24 h-24" alt='booking' src={book2} /></div>
                     <div className=" flex md:w-[88%] w-[68%] p-2 h-full justify-between flex-col md:flex-row ">
                         <div className=" flex flex-col  text-start">
                             <div className="text-gray-400 text-sm">DOM FLIGHTS</div>
@@ -148,7 +148,7 @@ export default function SecondPage({setfirst}) {
                     </div>
                    </div>
                    <div className="h-[30%] w-full p-2 border rounded-lg shadow-lg flex justify-between">
-                    <div className="p-2 md:w-[12%] w-[32%]  h-full"><img className=" rounded-lg md:w-28 md:h-28 w-24 h-24" alt='image' src={book3} /></div>
+                    <div className="p-2 md:w-[12%] w-[32%]  h-full"><img className=" rounded-lg md:w-28 md:h-28 w-24 h-24" alt='booking' src={book3} /></div>
                     <div className=" flex md:w-[88%] w-[68%] p-2 h-full justify-between flex-col md:flex-row ">
                         <div className=" flex flex-col  text-start">
                             <div className="text-gray-400 text-sm">DOM FLIGHTS</div>
