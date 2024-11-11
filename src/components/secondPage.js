@@ -39,13 +39,13 @@ export default function SecondPage({setfirst}) {
     <div className=' h-full w-full flex justify-center items-center' >
         <div className="w-full h-full flex flex-col items-center px-2 md:px-0 ">
             <div className="flex md:h-[20%] h-[10%] md:w-[80%] w-full justify-between items-center p-2  ">
-                <div className="rounded-3xl flex border py-2 ps-6 pe-1 gap-4 items-center shadow-md text-[6px] md:text-sm "> 
+                <div className="rounded-3xl flex border py-2 ps-6 pe-1 gap-4 items-center shadow-md text-[7px] md:text-sm "> 
                     <div className="border-r pe-2"><span className="">CDG</span> Paris Charlies De Gu..    </div>
                     <div className="border-r pe-2"><span className="">CDG</span> Paris Charlies De Gu..    </div>
                     <div className="border-r pe-2"> Jun 25 - Jul 2    </div>
                     <div className="rounded-full bg-[#f0f0f0] p-1 h-full w-8  "><i class="text-sm fa-solid fa-magnifying-glass"></i></div>
                 </div>
-                <div onClick={()=>setfirst(false)} className="cursor-pointer rounded-full border p-2 h-10 w-10 shadow-md"><i class="fa-solid fa-xmark"></i></div>
+                <div onClick={()=>setfirst(false)} className="cursor-pointer flex justify-center items-center rounded-full border md:p-2 p-1  md:h-10 md:w-10 h-8 w-8 shadow-md"><i class="fa-solid fa-xmark"></i></div>
             </div>
             <div className="w-[100vw] h-[0.5%]  "></div>
             
@@ -115,7 +115,7 @@ export default function SecondPage({setfirst}) {
                 
                 <div className="h-full w-full flex flex-col justify-between items-center gap-2 ">
                    <div className="md:h-[10%] w-full flex justify-start items-center ps-2 text-gray-400"><span className="ms-2 text-sm">Showing 356 of 756 results</span></div>
-                   <div className="h-[30%] w-full p-2 border rounded-lg shadow-lg flex justify-between">
+                    <div className="h-[30%] w-full p-2 border rounded-lg shadow-lg flex justify-between">
                     <div className="p-2 md:w-[12%] w-[32%]  h-full"><img className=" rounded-lg md:w-28 md:h-28 w-24 h-24" alt='booking' src={book1} /></div>
                     <div className=" flex md:w-[88%] w-[68%] p-2 h-full justify-between flex-col md:flex-row ">
                         <div className=" flex flex-col  text-start">
@@ -163,7 +163,7 @@ export default function SecondPage({setfirst}) {
                         </div>
                     </div>
                    </div>
-                </div>
+                   </div>
             </div>}
         </div>
     </div>

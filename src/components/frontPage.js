@@ -13,7 +13,7 @@ export default function FrontPage({ setfirst }) {
           </div>
           <div className="flex justify-between h-[40%] p-2 flex-wrap gap-2 ">
             <div className="">
-              <div className="rounded-lg border md:p-3 p-2 flex items-center">
+              <div className="rounded-lg border w-full  md:p-3 p-2 flex items-center">
                 <i className="md:me-2 text-xs md:text-sm text-gray-600 font-extralight fa-solid fa-location-crosshairs"></i>
                 <input
                   className=" focus:outline-none text-xs md:text-sm "
@@ -25,7 +25,7 @@ export default function FrontPage({ setfirst }) {
               <i class="fa-solid fa-arrow-right-arrow-left"></i>
             </div>
             <div className="">
-              <div className="rounded-lg border md:p-3 flex items-center p-2">
+              <div className="rounded-lg border w-full md:p-3 flex items-center p-2">
                 <i className="md:me-2 text-xs md:text-sm text-gray-600 font-extralight fa-solid fa-location-crosshairs"></i>
                 <input
                   className=" focus:outline-none  text-xs md:text-sm"
@@ -34,7 +34,7 @@ export default function FrontPage({ setfirst }) {
               </div>
             </div>
             <div className="">
-              <div className="rounded-lg border md:p-3 flex items-center p-2">
+              <div className="rounded-lg border w-full md:p-3 flex items-center p-2">
                 <i class="text-xs md:text-sm md:me-2  text-gray-600 font-extralight fa-regular fa-calendar"></i>
                 <input
                   className=" focus:outline-none text-xs md:text-sm"
@@ -43,7 +43,7 @@ export default function FrontPage({ setfirst }) {
               </div>
             </div>
             <div className="">
-              <div className="rounded-lg border md:p-3 flex items-center p-2">
+              <div className="rounded-lg border  w-full md:p-3 flex items-center p-2">
                 <i class="text-xs md:text-sm md:me-2 text-gray-600 font-extralight fa-regular fa-calendar"></i>
                 <input
                   className=" focus:outline-none text-xs md:text-sm "
